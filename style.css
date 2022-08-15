@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    header{
+    height: 150px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    }
+    
+    .logo{
+    height: 120px;
+    }
+    
+    main{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    background-color:rgb(228, 228, 228);
+    }
+    
+    .titulo{
+    font-size: 75px;
+    text-align: center;
+    }
+    
+    .integrantes{
+    width: 400px;
+    align-items: center;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    }
+    
+    .infos{
+    text-align: center;
+    font-size: larger;
+    }
+    
+    section{
+    width: 750px;
+    }
+    
+    .musicas{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    font-size:x-large;
+    align-items: flex-start;
+    margin: 40px;
+    }
+    
+    .subtitulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 15px;
+    }
+    
+    footer{
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    }
+    
+    .copyright{
+    padding: 15px;
+    color: white;
+    }
